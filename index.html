@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UFT-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <title>Joguinho dos Papagaios</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="page-icon.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>
+      <bold>Joguinho dos Papagaios</bold>
+    </h1>
+    <div class="game-time"></div>
+    <main>
+      <!-- Modelo do Card :) -->
+
+      <div data-identifier="card" class="card">
+        <div class="card-inner" onclick="flipCard(this)">
+          <div data-identifier="front-face" class="card-front">
+            <img src="imgs/front.png" alt="" />
+          </div>
+          <div data-identifier="back-face" class="card-back"></div>
+        </div>
+      </div>
+    </main>
+    <!--Parte dos gifs-->
+    <div class="gifs">
+      <img src="gifs/bobrossparrot.gif" alt="" />
+      <img src="gifs/explodyparrot.gif" alt="" />
+      <img src="gifs/fiestaparrot.gif" alt="" />
+      <img src="gifs/metalparrot.gif" alt="" />
+      <img src="gifs/revertitparrot.gif" alt="" />
+      <img src="gifs/tripletsparrot.gif" alt="" />
+      <img src="gifs/unicornparrot.gif" alt="" />
+    </div>
+    <!--javascrit agora ç.ç -->
+    <script src="javascript.js"></script>
+  </body>
+</html>
